@@ -36,7 +36,7 @@
             if (customers[i].balance<0){
                 letterText=`Hello ${customers[i].fname}, this is an attempt to collect a debt owed to ${bankName}. Your account is past due by the amount of ${customers[i].balance}.`;
             }
-            else if (customers[i].balance == 0)
+            else if (customers[i].balance>0)
             {
                 letterText = "Hello " + customers[i].fname + ", greetings from " + bankName + ". Your balance is current. No need for action until next month.";
             }
@@ -46,7 +46,7 @@
                 textContent.textContent=letterText;
                 theDiv.appendChild(textContent);
         }
-        ///refeference credit: d.caviness & e.yarborough///
+        ///reference credit: d.caviness & e.yarborough///
     </script>
 </html>
 
