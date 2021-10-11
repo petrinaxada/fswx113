@@ -1,0 +1,68 @@
+.letterhead {
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgb(130, 97, 97);
+  font-weight: bold;
+  font-size: xx-large;
+  color:whitesmoke
+  
+} 
+.slogan {
+  margin: 0 auto;
+  width: 800px;
+  color: antiquewhite;
+  text-align: center;
+  font-family: cursive;
+  font-size: larger;
+  background-color: rgb(130, 97, 97);
+  text-decoration-color: aliceblue;
+  border-top: 2px solid rgb(109, 109, 109);
+  border-bottom: 2px solid rgb(124, 124, 124);
+  margin-bottom: 20px;
+}
+
+.orderWrapper {
+  margin: 0 auto;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 75% 22%;
+  column-gap: 25px;
+  row-gap: 10px;
+}
+.orderDetails {
+  grid-row: span 4;
+  border: 2px solid rgb(107, 107, 107);
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+
+.detailHeader {
+  text-align: center;
+  background-color: rgb(130, 97, 97);
+  border-radius: 8px;
+  font-weight: 200;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.sidebar {
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgb(130, 97, 97);
+  font-family: 'Courier New', Courier, sans-serif;
+  font-size: small;
+  padding: 4px;
+}
+
+.bottomBar {
+  font-weight: 700;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, sans-serif;
+}

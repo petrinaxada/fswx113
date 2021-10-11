@@ -1,0 +1,40 @@
+.calendarWrapper {
+  border: silver 2px solid;
+  width: 525px;
+  margin: 0 auto;
+}
+
+.calendarTitle {
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+  grid-column: span 7;
+  border: rgb(2, 2, 2) 1px solid;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: bisque;
+}
+
+
+.calendar {
+  display: grid;
+  font-family: 'Courier New', Courier, monospace;
+  grid-template-columns: 75px 75px 75px 75px 75px 75px 75px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: bisque;
+}
+
+.calendarCell {
+  border: rgb(2, 2, 2) 1px solid;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 3px;
+}
+
+.blankDay {
+  border: rgb(3, 3, 3) 1px solid;
+  text-align: center;
+  padding: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  border-color: azure;
+}
