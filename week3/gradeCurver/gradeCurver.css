@@ -1,0 +1,38 @@
+.gradeWrapper {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  border: 2px solid rgb(92, 92, 157);
+  border-radius: 12px;
+  padding: 10px;
+  background-image: linear-gradient(rgb(163, 163, 198), rgb(161, 162, 162));
+}
+
+.gradeHeading {
+  color: white;
+  font-family: "courier";
+  font-size: large;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.gradeInput {
+  border: 0px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: white;
+  margin-top: 25px;
+  font-family: "courier";
+}
+
+.gradeDiv {
+  margin: 0 auto;
+  border: 0px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: white;
+  margin-top: 25px;
+  width: 90%;
+  font-family: "courier";
+}
+  
