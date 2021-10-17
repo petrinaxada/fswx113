@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='starwars.css'>
+    </head>
+    <body>
+        <h1 style='text-align:center;' id='title'>Star Wars Data Checker</h1>
+        <div class='queryWrapper'>
+            <div>Query Type:</div>
+            <div>
+                <select id='queryType'>
+                    <option value='people'>People</option>
+                    <option value='planets'>Planets</option>
+                    <option value='starships'>Starships</option>
+                </select>
+            </div>
+            <div>Item Number:</div>
+            <div>
+                <input type="number" style='width:25px' id='itemID' />
+            </div>
+            <div>
+                <button id='fetchButton' onclick="fetchData()">Fetch Data</button>
+            </div>
+        </div>
+        <br /><br />
+        <div id='ResponseData' class='dataWrapper'>
+            <div class='dataCellLabel' id='dataLabel1'></div>
+            <div class='dataCell' id='dataValue1'></div>
+            <div class='dataCellLabel' id='dataLabel2'></div>
+            <div class='dataCell' id='dataValue2'></div>
+        </div>
+        <br /><br />
+        <div class='footer'>
+            <hr />
+            <a href='https://swapi.dev/api/' target='_new'>Data courtesy of Star War API</a>
+        </div>
+
+        <script src='starwars.js'></script>
+    </body>
+</html>

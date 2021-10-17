@@ -1,0 +1,45 @@
+.queryWrapper {
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 5px;
+    width: 400px;
+    display: flex;
+    gap: 5px;
+    /* 
+    use the CSS grid to display all five <div> elements contained within
+    the 'queryWrapper' <div> on a row next to each other 
+    */
+    margin: 0 auto;
+}
+  
+  .dataWrapper {
+    border-radius: 8px;
+    background-color: silver;
+    padding: 5px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 
+    use the CSS grid to display the <div> elements contained within
+    the 'dataWrapper' <div> in a 2 x 2 grid 
+    */
+    margin: 0 auto;
+  }
+  
+  .dataCellLabel {
+    text-align: center;
+    padding: 5px;
+    font-weight: 700;
+  }
+  
+  .dataCell {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .footer {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
