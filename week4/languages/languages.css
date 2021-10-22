@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .intro {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .wrapper {
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 5px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    margin: 0 auto;
+  }
+  
+  .spanner {
+    padding: 5px;
+    font-weight: 700;
+    grid-column: span 2;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .text {
+    border-radius: 4px;
+    background-color: silver;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+  }
+  input {
+    width: 90%;
+    margin-bottom: 2px;
+  }
