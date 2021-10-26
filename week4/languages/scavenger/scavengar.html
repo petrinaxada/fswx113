@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='scavenger.css'>
+    </head>
+    <body>
+        <div class='intro'>
+            <p>Please fill in what each person collected in the office scavanger hunt. Separate each item with a comma.</p>
+            <p style='text-align: center;'>Items to collect
+                <ul id='lstItems'>
+                    <li>Wired Mouse</li>
+                    <li>Clacky Keyboard</li>
+                    <li>Post-its</li>
+                    <li>Gum Package</li>
+                    <li>Paper Clip</li>
+                    <li>Cell Phone Charger</li>
+                    <li>Coffee Cup</li>
+                    <li>USB Plug</li>
+                    <li>Family Picture</li>
+                    <li>ToDo List</li>
+                </ul>
+            </p>
+        </div>
+        <div class='wrapper'>
+            <div>Raji</div>
+            <div><textarea onclick=setTarget(this) style='width:90%' id='scavenger-0'></textarea></div>
+            <div>Huang</div>
+            <div><textarea onclick=setTarget(this) style='width:90%' id='scavenger-1'></textarea></div>
+            <div>José</div>
+            <div><textarea onclick=setTarget(this) style='width:90%' id='scavenger-2'></textarea></div>
+            <div>Veronica</div>
+            <div><textarea onclick=setTarget(this) style='width:90%' id='scavenger-3'></textarea></div>
+            <div class='spanner' style="text-align: right; padding: 10px;">
+                <button id='submit'>Submit</button>
+            </div>
+        </div>
+        <div id='AllItems' class='text'></div>
+    </body>
+    <script src='scavenger.js'></script>
+</html>
